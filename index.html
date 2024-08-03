@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -17,39 +16,38 @@
 </head>
 
 <body>
- 
 
-  <div class="overlay"> 
-    <svg class="drawing-text" viewBox="0 0 800 200">
-        <text x="50" y="150" class="text">Anime Collections</text>
-    </svg>
-</div>  
-    <div class="container">
-    
-        <div class="green">
-            <h2> 緑 </h2>
+    <div id="spinner" class="spinner">
+        <!-- Your spinner content, e.g., an animated gif or CSS animation -->
+        <div class="loader"></div>
+    </div>
+    <div id="content" class="content" style="display: none;">
+        <div class="overlay"> 
+            <svg class="drawing-text" viewBox="0 0 800 200">
+                <text x="50" y="150" class="text">Anime Collections</text>
+            </svg>
+        </div>  
+        <div class="container">
+            <div class="green">
+                <h2> 緑 </h2>
+            </div>
+            <div class="yellow">
+                <h2> 黄色 </h2>
+            </div>
+            <div class="red">
+                <h2> 赤</h2>
+            </div>
+            <div class="blue">
+                <h2> 青 </h2>
+            </div>
+            <div class="purple">
+                <h2> 紫 </h2>
+            </div>
         </div>
-        <div class="yellow">
-            <h2> 黄色 </h2>
-        </div>
-        <div class="red">
-            <h2> 赤</h2>
-        </div>
-        <div class="blue">
-            <h2> 青 </h2>
-        </div>
-        <div class="purple">
-            <h2> 紫 </h2>
-        </div>
-    
+        <div class="footer"></div>
     </div>
 
-
-
-    <div class="footer"></div>
-
-
-    <script src="script.js" ></script>
+    <script src="script.js" async defer></script>
 </body>
 
 </html>
