@@ -176,7 +176,7 @@ body {
 .drawing-text {
     width: 70%;
     margin-left: 15%;
-    margin-top: 15%;
+    margin-top: 50%;
     height: auto;
 
 }
@@ -196,4 +196,25 @@ body {
     to {
         stroke-dashoffset: 0;
     }
+}
+
+
+
+
+/* responsiveness */
+
+@media (max-width: 600px)  {
+
+.container{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, auto));
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    
+}
+
+.container>div{
+    width: 100%;
+}
+
 }
