@@ -176,7 +176,7 @@ body {
 .drawing-text {
     width: 70%;
     margin-left: 15%;
-    margin-top: 50%;
+    margin-top: 15%;
     height: auto;
 
 }
@@ -215,6 +215,14 @@ body {
 
 .container>div{
     width: 100%;
+}
+
+
+.drawing-text {
+    width: 100%;
+    margin-top: 50%;
+   
+
 }
 
 }
